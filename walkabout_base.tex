@@ -1,0 +1,13 @@
+\documentclass[a4paper,12pt,twoside]{article}
+\author{Duncan Smith}
+\title{}
+\usepackage{fancyhdr}
+\usepackage[margin=2cm]{geometry}
+\newcommand{\house}[3]{\makebox[1.4in][r]{{\tiny\it(#3)} [H A B]} #1: #2  \\}
+\newcommand{\street}[1]{\cleardoublepage \section{#1}\fancyfoot[R]{#1}\fancyhead[C]{Printed \today.  Entered on:}}
+\begin{document}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\input{caphill2.tex}
+\end{document}
